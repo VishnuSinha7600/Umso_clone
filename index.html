@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
     <style>
+        
         body{
             padding: 0;
             margin: 0;
@@ -22,8 +24,7 @@
 
            .clr{
             width: 90w;
-            height: 70%;
-          
+            height: 80%;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -37,7 +38,7 @@
             align-items: center;
             margin: 0px 70px;
             justify-content: space-between;
-            margin-bottom: 60px;
+            margin-bottom: 40px;
         }
 
         nav img{
@@ -76,7 +77,6 @@
         font-weight: 800;
         text-align: center;
         align-items: center;
-        margin-top: 40px;
         margin: auto;
 
       }
@@ -91,7 +91,6 @@
         background-clip: text;
         color: transparent;
         background-image: linear-gradient(to right , #d08ffe , #6c2cfc);
-       
         margin: auto;
 
       }
@@ -104,10 +103,52 @@
         text-align: center;
         color: #9899a1;
         align-items: center;
-       
         margin: auto;
 
       }
+
+      .btn_icon{
+        width: 40%;
+        height: 60px;
+        border: 1px solid;
+        border-radius: 8px;
+        display: flex;
+        margin: auto;
+        margin-top: 50px;
+        padding-right: 10px;
+        box-shadow:  #6c2cfc 10px 5px 5px,  #d08ffe  8px 6px 5px , #d08ffe  10px  -5px 5px; 
+        
+
+      }
+
+      .btn_icon input{
+        width: 80%;
+        background-color: transparent;
+        padding-left: 10px;
+        height: 50px;
+        border: 1px solid;
+        margin: auto;
+        font-size: 17px;
+        font-family: sans-serif;
+        font-weight: bold;
+        
+      }
+
+      .btn_icon button{
+        width: 20%;
+        height: 80%;
+        background-color: #7b0fff;
+        margin-right: 10px;
+        border-radius: 5px;
+        border: 1px solid;
+        margin: auto;
+        font-size: 17px;
+        color: white;
+        border: none;
+        font-family: sans-serif;
+        
+      }
+
 
 
     </style>
@@ -137,10 +178,13 @@
         
         </div>
         
-        <div>
-            <input type="search" name="" id="">
+        <div class="btn_icon">
+            <input type="search" name="" id="BTN" placeholder="Online Learning Platefomr">
+            <button>Generate <i class="fa-regular fa-star"></i></button>
         </div>
        </div>
+
+
       
        
     </header>
